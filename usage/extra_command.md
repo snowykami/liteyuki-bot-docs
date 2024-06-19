@@ -20,23 +20,18 @@ weather_key: "" # 和风天气的天气key，会自动判断key版本
 命令
 
 ```shell
-weather <keywords...> # Keywords为城市名，支持中英文
+weather <keywords...> # 查询目标地实时天气，例如："天气 北京 海淀", "weather Tokyo Shinjuku"
+bind-city <keywords...> # 绑定查询城市，个人全局生效
 ```
-查询目标地实时天气，例如："天气 北京 海淀", "weather Tokyo Shinjuku"
+
+命令别名
 
 ```shell
-bind-city <keywords...> # Keywords为城市名，支持中英文
+weather|天气
+bind-city|绑定城市
 ```
 
-绑定查询城市，个人全局生效
-#### 命令别名
-
-|   命令    | 别名     |
-| :-------: | :------- |
-|  weather  | 天气     |
-| bind-city | 绑定城市 |
-
----
+***
 
 ### **统计信息`liteyuki_statistics`**
 
@@ -51,14 +46,14 @@ statistic message --duration <duration> --period <period> --group [current|group
 # bot: 统计Bot，支持current(当前bot)和bot_id
 ```
 
-#### 命令别名
+命令别名
 
-|    命令    | 别名  |
-| :--------: | :---: |
-| `statistic`  | stat  |
-|  `message`   |   m   |
-| `--duration` |  -d   |
-|  --period`  |  -p   |
-|  `--group`   |  -g   |
-|   `--bot`    |  -b   |
-|  `current`   |   c   |
+```shell
+statistic|stat  
+message|m  
+--duration|-d  
+--period|-p  
+--group|-g  
+--bot|-b
+current|c
+```

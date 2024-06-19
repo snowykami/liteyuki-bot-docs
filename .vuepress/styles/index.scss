@@ -8,9 +8,18 @@
 
 @font-face {
   font-family: ColorTube;
-    src: url("/assets/fonts/ColorTube.woff") format("woff")
+  src: url("/assets/fonts/ColorTube.woff") format("woff")
 }
 
 code {
   font-family: "Fira Code", monospace !important;
+}
+
+.vp-hero-image{
+  overflow: hidden;
+  padding: -50px;
+}
+
+#main-title{
+  display: none;
 }
