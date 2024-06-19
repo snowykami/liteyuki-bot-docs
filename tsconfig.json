@@ -6,8 +6,8 @@
     "allowSyntheticDefaultImports": true
   },
   "include": [
-    "./.vuepress/**/*.ts",
-    "./.vuepress/**/*.vue"
+    ".vuepress/**/*.ts",
+    ".vuepress/**/*.vue"
   ],
   "exclude": [
     "node_modules"
