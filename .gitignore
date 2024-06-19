@@ -3,4 +3,7 @@ node_modules/
 ./.vuepress/.cache/
 ./.vuepress/.temp/
 ./.vuepress/dist/
+.vuepress/.temp/
+.vuepress/dist/
+.vuepress/.cache/
 .idea/
