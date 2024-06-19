@@ -23,7 +23,7 @@ actions:
 highlights:
 
   - header: 简洁至上
-    image: /assets/image/layout.svg
+    image: assets/image/layout.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
     bgImageStyle:
@@ -67,7 +67,7 @@ highlights:
         details: 项目遵循MIT LICENCE开源，欢迎各位的贡献
 
   - header: 快速部署
-    image: /assets/image/box.svg
+    image: assets/image/box.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     highlights:
