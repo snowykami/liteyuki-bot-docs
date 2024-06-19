@@ -17,7 +17,7 @@ export default hopeTheme({
 
     repo: "https://github.com/snowykami/LiteyukiBot",
 
-    docsDir: ".",
+    docsDir: "./",
 
     // 导航栏
     navbar,
